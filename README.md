@@ -1,20 +1,4 @@
-/*
- * UART3.c
- *
- *  Created on: 2019Äê1ÔÂ10ÈÕ
- *      Author: Administrator
- */
 
-#include <stdint.h>                   /* character functions                 */
-#include <stm32f10x.h>            /* STM32F10x Library Definitions       */
-
-//0x3A, Command, Length, data[Length], Lrc
-
-
-/*----------------------------------------------------------------------------
- STM32 USART setup.
- initializes the USARTx register
- *----------------------------------------------------------------------------*/
 #define __SYSCLK 36000000UL
 #define __HCLK        (__SYSCLK)
 #define __PCLK1       (__HCLK)
